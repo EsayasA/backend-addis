@@ -10,7 +10,7 @@ const port = 5000;
 
 app.use(
   cors({
-    origin: "https://harmonious-kangaroo-cde07a.netlify.app",
+    origin: "https://addis-uni.netlify.app",
     credentials: true, // Allow requests from this origin
   })
 );

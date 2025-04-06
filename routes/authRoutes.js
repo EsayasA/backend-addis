@@ -205,7 +205,7 @@ router.post("/forgot-password", (req, res) => {
       from: "esayasaregawi29@gmail.com",
       to: user.email,
       subject: "Reset Password Link",
-      text: `http://localhost:5173/reset-password/${user._id}/${token}`,
+      text: `https://addis-uni.netlify.app/reset-password/${user._id}/${token}`,
     };
 
     // eslint-disable-next-line no-unused-vars

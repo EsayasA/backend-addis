@@ -10,7 +10,11 @@ const port = 5000;
 
 app.use(
   cors({
-    origin: "https://addis-uni.netlify.app",
+    origin: [
+      "http://localhost:5173",
+      "https://addis-uni.netlify.app",
+      "https://backend-addis-1.onrender.com",
+    ],
     credentials: true, // Allow requests from this origin
   })
 );
